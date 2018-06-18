@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="exercicio?user=root&amp;password=PU" transaction-type="RESOURCE_LOCAL">
+    <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+    <class>semana09_exemplos_swing.Contatos</class>
+    <properties>
+      <property name="toplink.jdbc.user" value=""/>
+      <property name="toplink.jdbc.password" value=""/>
+      <property name="toplink.jdbc.url" value="jdbc:mysql://localhost/exercicio?user=root&amp;password="/>
+      <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+    </properties>
+  </persistence-unit>
+</persistence>

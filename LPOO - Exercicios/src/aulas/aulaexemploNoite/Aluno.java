@@ -10,7 +10,7 @@ package aulas.aulaexemploNoite;
  *
  * @author Rafael
  */
-public class Aluno extends Pessoa{
+public class Aluno extends Pessoa{//
     private String curso;
     private Disciplina[] disciplinasMatriculadas;
 

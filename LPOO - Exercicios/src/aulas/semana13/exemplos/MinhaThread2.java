@@ -24,6 +24,10 @@ class MinhaThread2 extends Thread {
         this.valores = valores;
     }
 
+    MinhaThread2() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public void run() {
         soma=0;
